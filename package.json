@@ -17,10 +17,17 @@
   "bugs": {
     "url": "https://github.com/anayang23/anayang23.github.io/issues"
   },
-  "homepage": "https://github.com/anayang23/anayang23.github.io#readme",
+  "homepage": "https://github.com/anayang23/anayang23.github.io",
   "dependencies": {
     "bootstrap": "^5.3.9",
     "bootstrap-icons": "^1.13.2",
     "bootswatch": "^5.3.8"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
