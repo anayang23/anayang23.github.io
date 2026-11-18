@@ -152,3 +152,8 @@ ul.icons.alt li .icon:before {
         aspect-ratio: 3 / 2;
     }
 }
+
+.star-list {
+    list-style-type: "\2605  "; /* Solid star with trailing space */
+    padding-left: 20px;
+}
